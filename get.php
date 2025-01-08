@@ -226,6 +226,21 @@ else if ($channel == "NovaAction") {
 else if ($channel == "NovaTNLive") {
     loc(nova_url("ETpdC5paJa8", true));
 }
+else if ($channel == "NovaTNLive2") {
+    loc(nova_url("BhRyK2V77Zi", true));
+}
+else if ($channel == "NovaTNLive3") {
+    loc(nova_url("Jc9Bufo0T3E", true));
+}
+else if ($channel == "NovaTNLive4") {
+    loc(nova_url("GJQrfoQipLo", true));
+}
+else if ($channel == "NovaTNLivePoslaneckaSnemovna") {
+    loc(nova_url("JBuoEGEocEW", true));
+}
+else if ($channel == "NovaTNLiveSvet") {
+    loc(nova_url("2PcwP5tMtJq", true));
+}    
 else if ($channel == "CNN_Portugal") {
     loc(cnn_portugal());
 }
@@ -236,6 +251,9 @@ else if ($channel == "CT2") {
     ceskatelevize(2);
 }
 else if ($channel == "CT24") {
+    ceskatelevize(24);
+}
+else if ($channel == "CT_24") {
     ceskatelevize(3);
 }
 else if ($channel == "CTsport") {
@@ -247,8 +265,29 @@ else if ($channel == "CT_D") {
 else if ($channel == "CTart") {
     ceskatelevize(6);
 }
-else if ($channel == "CTsportPlus") {
+else if ($channel == "CTsportPlus1") {
+    ceskatelevize(25);
+}
+else if ($channel == "CTsportPlus2") {
+    ceskatelevize(26);
+}
+else if ($channel == "CTsportPlus3") {
+    ceskatelevize(27);
+}
+else if ($channel == "CTsportPlus4") {
     ceskatelevize(28);
+}
+else if ($channel == "CTsportPlus5") {
+    ceskatelevize(29);
+}
+else if ($channel == "CTsportPlus6") {
+    ceskatelevize(30);
+}
+else if ($channel == "CTsportPlus7") {
+    ceskatelevize(31);
+}
+else if ($channel == "CTsportPlus8") {
+    ceskatelevize(32); 
 }
 else if ($channel == "Prima") {
     if($forge) loc($SKTV_PROXY_CZ . urlencode(prima("id-p111013")) . "&m3u8-forge=true");
