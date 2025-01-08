@@ -235,12 +235,12 @@ else if ($channel == "NovaTNLive3") {
 else if ($channel == "NovaTNLive4") {
     loc(nova_url("GJQrfoQipLo", true));
 }
-else if ($channel == "NovaTNLivePoslaneckaSnemovna") {
-    loc(nova_url("JBuoEGEocEW", true));
-}
 else if ($channel == "NovaTNLiveSvet") {
     loc(nova_url("2PcwP5tMtJq", true));
-}    
+} 
+else if ($channel == "NovaTNLivePoslaneckaSnemovna") {
+    loc(nova_url("JBuoEGEocEW", true));
+} 
 else if ($channel == "CNN_Portugal") {
     loc(cnn_portugal());
 }
